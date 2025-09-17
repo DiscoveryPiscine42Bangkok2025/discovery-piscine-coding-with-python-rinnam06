@@ -1,7 +1,8 @@
 def add_one(num):
     num += 1
-    return num
+    print("Add one: %d" %num)
 
 number = 42
 print("Before: %d" %number)
-print("After: %d" %add_one(number))
+add_one(number)
+print("After: %d" %number)
