@@ -10,5 +10,3 @@ import sys
 
 count = len(sys.argv) - 1
 print("Number of parameters: %d." %count)
-
-#ยังไม่เสร็จ
